@@ -1,0 +1,30 @@
+{
+  "name": "view-components",
+  "version": "1.0.0",
+  "description": "view-components",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igor157/view-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igor157/view-components/issues"
+  },
+  "homepage": "https://github.com/Igor157/view-components#readme",
+  "devDependencies": {
+    "@storybook/react": "^3.4.0",
+    "babel-core": "^6.26.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.8.3",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "sass-loader": "^6.0.7"
+  }
+}

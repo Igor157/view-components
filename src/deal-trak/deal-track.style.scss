@@ -1,0 +1,41 @@
+$lightBlue: #EEF8FF;
+$blue: #7FB9D6;
+$grey: #666666;
+$red: #DB8E84;
+$green: #B3D18F;
+$purple:#C7B6D7;
+
+
+.deal-track {
+    border: 1px solid $blue;
+    border-radius: 2px;
+    background-color: $blue
+}
+
+.deal-track__head {
+    color:white;
+}
+
+.employees-achivement {
+    padding:2px;
+    background-color:lightBlue ;
+}
+
+.employees-achivement__row {
+    padding-top: 10px;
+}
+
+.employees-achivement__name {}
+
+.employees-achivement__deals-vizualization {
+    min-height: 20px;
+    background-color: white;
+}
+
+.employees-achivement__button {
+    min-height: 18px;
+    margin: 2px;
+    background-color: $green;
+    border: 1px solid $green;
+    border-radius: 2px;
+}
