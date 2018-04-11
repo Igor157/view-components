@@ -8,12 +8,15 @@ $purple:#C7B6D7;
 $borderRadius: 4px;
 $paddingOfWindows:3px;
 
-.interest-rates {
-    border: 1px solid $lightGrey;
+.credit{
     border-radius: $borderRadius;
-    padding: 4%;
+    background-color: $blue;
+    padding:3px;
 }
-.interest-rates__item {
-    display: flex;
-    justify-content: space-between
+.credit__head{
+    color: white;
+}
+.credit__content{
+    padding: $paddingOfWindows;
+    background-color: lightBlue;
 }

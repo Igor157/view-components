@@ -18,7 +18,11 @@ class Sidebar extends React.Component {
 					BDO Bids This Week
 					<BidsPanel />
 					Interest Rates
-					<InterestRates />
+					<InterestRates
+						baseRate='4.58'
+						primeRate='4.50'
+						debentureRate='4.32'
+					/>
 					<Logo />
 				</div>
 			</div>

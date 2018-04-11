@@ -1,0 +1,32 @@
+$lightBlue: #EEF8FF;
+$blue: #7FB9D6;
+$grey: #666666;
+$lightGrey:#DDE3E7;
+$red: #DB8E84;
+$green: #B3D18F;
+$purple:#C7B6D7;
+$borderRadius: 4px;
+$paddingOfWindows:3px;
+.cl-result {
+    border-radius: $borderRadius;
+    background-color: $lightGrey;
+    padding: $paddingOfWindows;
+}
+
+.cl-result__head {
+    color: white;
+}
+
+.cl-list__list {
+    padding: 2px;
+    background-color:$lightGrey;
+}
+
+.cl-result-row {
+    display: flex;
+    justify-content: space-between;
+    margin: {
+        top: 2px;
+        bottom: 2px;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import styles from './deal-track.style.scss';
+import BidsPanel from '../bids-panel/bids-panel.component.jsx';
 
 class DealTrack extends React.Component {
 	render() {
@@ -42,10 +43,11 @@ class DealTrack extends React.Component {
 			</div>
 		));
 		return (
-			<div className="deal-track">
+			<div className={`deal-track ${type==='MTD Deals to Committee'|| 'MTD Closing' ? 'deal-track--light-grey':'deal-track--blue'}`}>
 				<div className="deal-track__head">
 					{headInfo}
 				</div>
+				{this.props.children}
 				<div className="employees-achivement">{employeesAchivement}</div>
 			</div>
 		);

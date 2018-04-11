@@ -1,3 +1,54 @@
-.ik-empty-template {
+$lightBlue: #EEF8FF;
+$blue: #7FB9D6;
+$grey: #666666;
+$lightGrey:#DDE3E7;
+$red: #DB8E84;
+$green: #B3D18F;
+$purple:#C7B6D7;
+$borderRadius: 4px;
+$paddingOfWindows:3px;
+.bids-panel {
     background-color: gray;
+    padding: 4%;
+}
+
+.bids-panel--horisontal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bids-panel--vertical {}
+
+.bids-panel__field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3px;
+    color: white;
+}
+
+.bids-panel__form {
+    display: flex;
+    align-items: center;
+    margin: 3px;
+}
+
+.bids-panel__input {
+    margin: 3px;
+    width: 20px;
+    height: 20px;
+    border: {
+        radius: 2px;
+        color: $blue;
+    }
+}
+
+.bids-panel__button {
+    text-align: center;
+    max-height: 15px;
+    min-width: 15px;
+    border-radius: 2px;
+    background-color: $lightGrey;
+    color: $grey;
+    cursor: pointer;
 }

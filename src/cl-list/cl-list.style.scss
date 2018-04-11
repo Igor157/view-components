@@ -1,0 +1,51 @@
+$lightBlue: #EEF8FF;
+$blue: #7FB9D6;
+$grey: #666666;
+$lightGrey:#DDE3E7;
+$red: #DB8E84;
+$green: #B3D18F;
+$purple:#C7B6D7;
+$borderRadius: 4px;
+$paddingOfWindows:3px;
+.cl-list {
+    border-radius: $borderRadius;
+    background-color: $blue;
+    padding: $paddingOfWindows;
+}
+
+.cl-list--light-grey {
+    background-color: $lightGrey;
+}
+
+.cl-list--blue {
+    background-color: $blue;
+}
+
+.cl-list__head {
+    color: white;
+}
+
+.cl-list__list {
+    padding: 2px;
+    background-color: lightBlue;
+}
+
+.cl-row {
+    display: flex;
+    justify-content: space-between;
+    margin: {
+        top: 2px;
+        bottom: 2px;
+    }
+}
+
+.cl-row__ico {}
+
+.cl-row__company-name {
+    min-height: 20px;
+}
+
+.cl-row__drop-down {
+    border-radius: 4px;
+    cursor: pointer;
+}
