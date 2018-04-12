@@ -21,10 +21,16 @@ $paddingOfWindows:3px;
 }
 
 .deals-data-row__button {
-    min-height: 18px;
+    height: 25px;
+    width: 25px;
     margin: 2px;
     border: 1px solid $green;
     border-radius: 2px;
+}
+
+.deals-data-row__ico {
+    color: white;
+    opacity: 0.5;
 }
 
 .deals-data-row__button--green {

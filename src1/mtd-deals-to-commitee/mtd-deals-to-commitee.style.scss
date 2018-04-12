@@ -8,16 +8,15 @@ $purple:#C7B6D7;
 $borderRadius: 4px;
 $paddingOfWindows:3px;
 
-.credit{
+.mtd-deals-to-commitee{
     border-radius: $borderRadius;
-    background-color: $blue;
+    background-color: $lightGrey;
     padding:3px;
 }
-.credit__head{
-    color: white;
+.mtd-deals-to-commitee__head{
     padding-left: 4%;
 }
-.credit__content{
+.mtd-deals-to-commitee__content{
     padding: $paddingOfWindows;
     background-color: lightBlue;
 }

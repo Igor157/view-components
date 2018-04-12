@@ -13,6 +13,9 @@ class DealsDataRow extends React.Component {
                     className={`deals-data-row__button ${item.color === 'green' ?
                         'deals-data-row__button--green' :
                         'deals-data-row__button--purple'}`}>
+                    <div className = 'deals-data-row__ico'>
+                    <i className="far fa-file-alt fa-lg"></i>
+                    </div>
                 </button>)
         }
         return (
@@ -26,13 +29,3 @@ class DealsDataRow extends React.Component {
 
 export default DealsDataRow;
 
-
-let dealsData = [
-    { fullName: 'Alex Grina', deals: [] },
-    { fullName: 'Marie Serra', deals: [{ color: 'green' }, { color: 'green' }] },
-    { fullName: 'Melanie Snyder', deals: [] },
-    { fullName: 'Mark Williamson', deals: [{ color: 'green' }] },
-    { fullName: 'Suzan Korojed', deals: [{ color: 'green' }, { color: 'green' }, { color: 'green' }] },
-    { fullName: 'Tricia Threlkeld', deals: [{ color: 'green' }, { color: 'green' }] },
-
-];

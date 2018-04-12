@@ -1,0 +1,72 @@
+$lightBlue: #EEF8FF;
+$blue: #7FB9D6;
+$grey: #666666;
+$lightGrey:#DDE3E7;
+$red: #DB8E84;
+$green: #B3D18F;
+$purple:#C7B6D7;
+$borderRadius: 4px;
+$paddingOfWindows:3px;
+.post-closing {
+    border-radius: $borderRadius;
+    background-color: $blue;
+    padding: $paddingOfWindows;
+}
+
+.post-closing-row--red {
+    background-color: $red;
+}
+
+.post-closing-row--purple {
+    background-color: $purple;
+}
+
+.post-closing-row--light-grey {
+    background-color: $lightGrey;
+}
+
+.post-closing__head {
+    color: white;
+    padding-left: 4%;
+}
+
+.post-closing__list {
+    padding: 2px;
+    background-color: lightBlue;
+}
+
+.post-closing-row {
+    display: flex;
+    justify-content: space-between;
+    margin: {
+        top: 2px;
+        bottom: 2px;
+    }
+    ;
+    border-radius: $borderRadius;
+    padding: 1%;
+}
+
+.post-closing__ico {
+    color: white;
+    opacity: 0.5;
+}
+
+.post-closing__company-name {
+    min-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: {
+        left: 2%;
+        right: 2%;
+    }
+    font-size: 0.8em;
+    line-height:20px;
+}
+
+.post-closing__drop-down {
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.5;
+}

@@ -1,0 +1,22 @@
+$lightBlue: #EEF8FF;
+$blue: #7FB9D6;
+$grey: #666666;
+$lightGrey:#DDE3E7;
+$red: #DB8E84;
+$green: #B3D18F;
+$purple:#C7B6D7;
+$borderRadius: 4px;
+$paddingOfWindows:3px;
+$paddingOfSidebarTitles:7px;
+.production-year-to-date {}
+
+.production-year-to-date__lable {
+    padding-bottom: $paddingOfSidebarTitles;
+}
+
+.production-year-to-date__content {
+    height: 300px;
+    border: 1px solid $lightGrey;
+    border-radius: $borderRadius;
+    padding: 4%;
+}
