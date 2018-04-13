@@ -29,7 +29,7 @@ class PostClosing extends React.Component {
 		}
 		let componiesList = getComponiesList(data);
 		return (
-			<div className='post-closing'>
+			<div className='post-closing dashboard-content__post-closing'>
 				<div className="post-closing__head">
 					{headInfo}
 				</div>

@@ -29,7 +29,7 @@ class CLWithdrawn extends React.Component {
 		}
 		let componiesList = getComponiesList(data);
 		return (
-			<div className='cl-withdrawn'>
+			<div className='cl-withdrawn dashboard-content__cl-withdrawn'>
 				<div className="cl-withdrawn__head">
 					{headInfo}
 				</div>

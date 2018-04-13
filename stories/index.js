@@ -4,21 +4,22 @@ import { action } from '@storybook/addon-actions';
 import ProductionChart from '../src/production-chart/production-chart.component.jsx';
 import BidsPanel from '../src/bids-panel/bids-panel.component.jsx';
 import Logo from '../src/logo/logo.component.jsx';
-import Sidebar from '../src1/sidebar/sidebar.component.jsx';
+import Sidebar from '../src1/components/sidebar/sidebar.component.jsx';
 import DealTrack from '../src/deal-trak/deal-track.component.jsx';
 import ClList from '../src/cl-list/cl-list.component.jsx';
 import ClResult from '../src/cl-result/cl-result.component.jsx';
-import Credit from '../src1/credit/credit.component.jsx';
-import Closing from '../src1/closing/closing.component.jsx';
-import BDOBidsThisWeek from '../src1/bdo-bids-this-week/bdo-bids-this-week.component.jsx';
-import MTDDealsToCommettee from '../src1/mtd-deals-to-commitee/mtd-deals-to-commitee.component.jsx';
-import MTDClosing from '../src1/mtd-closing/mtd-closing.component.jsx';
-import PostClosing from '../src1/post-closing/post-closing.component.jsx';
-import CLPending from '../src1/cl-pending/cl-pending.component.jsx';
-import CLRecorded from '../src1/cl-recorded/cl-recorded.component.jsx';
-import CLWithdrawn from '../src1/cl-withdrawn/cl-withdrawn.component.jsx';
-import ProductionYearToDate from '../src1/production-year-to-date/production-year-to-date.component.jsx';
-import InterestRates from '../src1/interest-rates/interest-rates.component.jsx';
+import Credit from '../src1/components/credit/credit.component.jsx';
+import Closing from '../src1/components/closing/closing.component.jsx';
+import BDOBidsThisWeek from '../src1/components/bdo-bids-this-week/bdo-bids-this-week.component.jsx';
+import MTDDealsToCommettee from '../src1/components/mtd-deals-to-commitee/mtd-deals-to-commitee.component.jsx';
+import MTDClosing from '../src1/components/mtd-closing/mtd-closing.component.jsx';
+import PostClosing from '../src1/components/post-closing/post-closing.component.jsx';
+import CLPending from '../src1/components/cl-pending/cl-pending.component.jsx';
+import CLRecorded from '../src1/components/cl-recorded/cl-recorded.component.jsx';
+import CLWithdrawn from '../src1/components/cl-withdrawn/cl-withdrawn.component.jsx';
+import ProductionYearToDate from '../src1/components/production-year-to-date/production-year-to-date.component.jsx';
+import InterestRates from '../src1/components/interest-rates/interest-rates.component.jsx';
+import DashboardContent from '../src1/components/dashboard-content/dashboard-content.component.jsx';
 // let dealsData = [
 // 	{ fullName: 'Alex Grina', deals: [] },
 // 	{ fullName: 'Marie Serra', deals: [{ profit: 10000 }, { profit: 5000 }, { profit: 20000 }] },
@@ -217,5 +218,18 @@ storiesOf('Sidebar', module)
 			baseRate='4.58'
 			primeRate='4.50'
 			debentureRate='4.32'
+		/>
+	));
+storiesOf('DashboardContent', module)
+	.add('DashboardContent', () => (
+		<DashboardContent
+			dealsData={dealsData}
+			closingData={closingData}
+			MTDDealsToCommetteeData={MTDDealsToCommetteeData}
+			MTDclosingData={MTDclosingData}
+			postClosingData={postClosingData}
+			CLPendingData={CLPendingData}
+			CLRecordedData={CLRecordedData}
+			CLWithdrawnData={CLWithdrawnData}
 		/>
 	));

@@ -1,16 +1,11 @@
-$lightBlue: #EEF8FF;
-$blue: #7FB9D6;
-$grey: #666666;
-$lightGrey:#DDE3E7;
-$red: #DB8E84;
-$green: #B3D18F;
-$purple:#C7B6D7;
-$borderRadius: 4px;
-$paddingOfWindows:3px;
+@import '../../common-styles/variables.scss';
+@import '../../common-styles/normalize.scss';
 .cl-recorded {
     border-radius: $borderRadius;
     background-color: $lightGrey;
     padding: $paddingOfWindows;
+    display: flex;
+    flex-direction: column;
 }
 
 .cl-recorded-row--red {
@@ -32,7 +27,10 @@ $paddingOfWindows:3px;
 .cl-recorded__list {
     padding: 2px;
     background-color: white ;
-    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: auto;
 }
 
 .cl-recorded-row {

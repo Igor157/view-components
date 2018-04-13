@@ -28,7 +28,7 @@ class MTDDealsToCommettee extends React.Component {
             />
         );
         return (
-            <div className='mtd-deals-to-commitee'>
+            <div className='mtd-deals-to-commitee dashboard-content__mtd-deals-to-commitee'>
                 <div className="mtd-deals-to-commitee__head">
                     {headInfo}
                 </div>

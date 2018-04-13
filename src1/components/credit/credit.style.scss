@@ -1,17 +1,12 @@
-$lightBlue: #EEF8FF;
-$blue: #7FB9D6;
-$grey: #666666;
-$lightGrey:#DDE3E7;
-$red: #DB8E84;
-$green: #B3D18F;
-$purple:#C7B6D7;
-$borderRadius: 4px;
-$paddingOfWindows:3px;
+@import '../../common-styles/variables.scss';
+@import '../../common-styles/normalize.scss';
 
 .credit{
     border-radius: $borderRadius;
     background-color: $blue;
     padding:3px;
+    display: flex;
+    flex-direction: column;
 }
 .credit__head{
     color: white;
@@ -20,4 +15,8 @@ $paddingOfWindows:3px;
 .credit__content{
     padding: $paddingOfWindows;
     background-color: lightBlue;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: auto;
 }

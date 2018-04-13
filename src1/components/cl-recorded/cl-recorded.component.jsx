@@ -29,7 +29,7 @@ class CLRecorded extends React.Component {
 		}
 		let componiesList = getComponiesList(data);
 		return (
-			<div className='cl-recorded'>
+			<div className='cl-recorded dashboard-content__cl-recorded'>
 				<div className="cl-recorded__head">
 					{headInfo}
 				</div>

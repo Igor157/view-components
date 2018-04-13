@@ -8,7 +8,7 @@ class BDOBidsThisWeek extends React.Component {
 		return (
 			<div className='bdo-bids-this-week'>
 				<div className='bdo-bids-this-week__lable'>
-					Production Year to Date
+					BDO Bids This Week
 				</div>
 				<div className='bdo-bids-this-week__content'>
 					<BidsField orientation='vertical'/>

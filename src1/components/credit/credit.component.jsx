@@ -28,7 +28,7 @@ class Credit extends React.Component {
             />
         );
         return (
-            <div className='credit'>
+            <div className='credit dashboard-content__credit'>
                 <div className="credit__head">
                     {headInfo}
                 </div>

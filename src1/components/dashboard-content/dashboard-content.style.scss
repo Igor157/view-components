@@ -1,26 +1,74 @@
-$lightBlue: #EEF8FF;
-$blue: #7FB9D6;
-$grey: #666666;
-$lightGrey:#DDE3E7;
-$red: #DB8E84;
-$green: #B3D18F;
-$purple:#C7B6D7;
-$borderRadius: 4px;
-$paddingOfWindows:3px;
-
-.sidebar {
-    border-radius: $borderRadius;
-    background-color: $lightGrey;
-    padding: $paddingOfWindows;
-    width:250px;
-}
-.sidebar__head{
-    padding-left: 4%;
-}
-.sidebar__content {
-    padding: 2px;
-    background-color: white ;
+@import '../../common-styles/variables.scss';
+@import '../../common-styles/normalize.scss';
+.dashboard-content {
+    height: 800px;
+    // must be removed
+    display: flex;
+    background-color: $lightBlue;
 }
 
+.dashboard-content__credit-column {
+    display: flex;
+    flex-direction: column;
+}
 
+.dashboard-content__cl-column {
+    display: flex;
+    flex-direction: column;
+}
 
+.dashboard-content__closing-column {
+    display: flex;
+    flex-direction: column;
+}
+.dashboard-content__post-closing-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-content__credit{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    height:50%;
+    margin-left:2%;
+    margin-top: 2%;
+}
+.dashboard-content__mtd-deals-to-commitee{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    height:50%;
+    margin-left:2%;
+    margin-top: 2%;
+}
+.dashboard-content__cl-pending{
+    height:70%;
+    margin-left:2%;
+    margin-top: 1%;
+}
+.dashboard-content__cl-recorded{
+    height:15%;
+    margin-left:2%;
+    margin-top: 1%;
+}
+.dashboard-content__cl-withdrawn{
+    height:15%;
+    margin-left:2%;
+    margin-top: 1%;
+}
+.dashboard-content__closing{
+    height:50%;
+    margin-left:2%;
+    margin-top: 2%;
+}
+.dashboard-content__mtd-closing{
+    height:50%;
+    margin-left:2%;
+    margin-top: 2%;
+}
+.dashboard-content__post-closing {
+    height:100%;
+    margin-left:2%;
+    margin-top: 1%;
+}

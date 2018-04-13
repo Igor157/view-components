@@ -29,7 +29,7 @@ class CLPending extends React.Component {
 		}
 		let componiesList = getComponiesList(data);
 		return (
-			<div className='cl-pending'>
+			<div className='cl-pending dashboard-content__cl-pending'>
 				<div className="cl-pending__head">
 					{headInfo}
 				</div>

@@ -22,7 +22,7 @@ class ProductionYearToDate extends React.Component {
 			<div className='production-year-to-date__content'>
 				<ResponsiveContainer height="90%">
 					<BarChart data={this.props.data}>
-						<XAxis dataKey="month" tickMargin='15' />
+						<XAxis dataKey="month" tickMargin={15} />
 						<YAxis unit='$' tickMargin='10' />
 						<Bar dataKey="green" fill="#B3D18F" />
 						<Bar dataKey="red" fill="#DB8E84" />

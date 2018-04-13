@@ -1,22 +1,22 @@
-$lightBlue: #EEF8FF;
-$blue: #7FB9D6;
-$grey: #666666;
-$lightGrey:#DDE3E7;
-$red: #DB8E84;
-$green: #B3D18F;
-$purple:#C7B6D7;
-$borderRadius: 4px;
-$paddingOfWindows:3px;
-
-.mtd-closing{
+@import '../../common-styles/variables.scss';
+@import '../../common-styles/normalize.scss';
+.mtd-closing {
     border-radius: $borderRadius;
     background-color: $lightGrey;
-    padding:3px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
 }
-.mtd-closing__head{
+
+.mtd-closing__head {
     padding-left: 4%;
 }
-.mtd-closing__content{
+
+.mtd-closing__content {
     padding: $paddingOfWindows;
     background-color: lightBlue;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: auto;
 }

@@ -28,7 +28,7 @@ class Closing extends React.Component {
             />
         );
         return (
-            <div className='closing'>
+            <div className='closing dashboard-content__closing'>
                 <div className="closing__head">
                     {headInfo}
                 </div>

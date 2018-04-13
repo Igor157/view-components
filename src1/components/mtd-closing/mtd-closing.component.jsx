@@ -28,7 +28,7 @@ class MTDClosing extends React.Component {
             />
         );
         return (
-            <div className='mtd-closing'>
+            <div className='mtd-closing dashboard-content__mtd-closing'>
                 <div className="mtd-closing__head">
                     {headInfo}
                 </div>
