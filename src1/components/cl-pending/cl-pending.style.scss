@@ -1,0 +1,71 @@
+$lightBlue: #EEF8FF;
+$blue: #7FB9D6;
+$grey: #666666;
+$lightGrey:#DDE3E7;
+$red: #DB8E84;
+$green: #B3D18F;
+$purple:#C7B6D7;
+$borderRadius: 4px;
+$paddingOfWindows:3px;
+.cl-pending {
+    border-radius: $borderRadius;
+    background-color: $lightGrey;
+    padding: $paddingOfWindows;
+}
+
+.cl-pending-row--red {
+    background-color: $red;
+}
+
+.cl-pending-row--purple {
+    background-color: $purple;
+}
+
+.cl-pending-row--light-grey {
+    background-color: $lightGrey;
+}
+
+.cl-pending__head {
+    padding-left: 4%;
+}
+
+.cl-pending__list {
+    padding: 2px;
+    background-color: white ;
+}
+
+.cl-pending-row {
+    display: flex;
+    justify-content: space-between;
+    margin: {
+        top: 2px;
+        bottom: 2px;
+    }
+    ;
+    border-radius: $borderRadius;
+    padding: 1%;
+}
+
+.cl-pending__ico {
+    color: white;
+    opacity: 0.5;
+}
+
+.cl-pending__company-name {
+    min-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: {
+        left: 2%;
+        right: 2%;
+    }
+    font-size: 0.8em;
+    line-height:20px;
+}
+
+.cl-pending__drop-down {
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.5;
+}

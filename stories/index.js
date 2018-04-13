@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions';
 import ProductionChart from '../src/production-chart/production-chart.component.jsx';
 import BidsPanel from '../src/bids-panel/bids-panel.component.jsx';
 import Logo from '../src/logo/logo.component.jsx';
-import Sidebar from '../src/sidebar/sidebar.component.jsx';
+import Sidebar from '../src1/sidebar/sidebar.component.jsx';
 import DealTrack from '../src/deal-trak/deal-track.component.jsx';
 import ClList from '../src/cl-list/cl-list.component.jsx';
 import ClResult from '../src/cl-result/cl-result.component.jsx';
@@ -99,14 +99,6 @@ let chartData = [
 // 		<BidsPanel />
 // 	));
 
-storiesOf('InterestRates', module)
-	.add('InterestRates demo', () => (
-		<InterestRates
-			baseRate='4.58'
-			primeRate='4.50'
-			debentureRate='4.32'
-		/>
-	));
 
 // storiesOf('Logo', module)
 // 	.add('Logo demo', () => (
@@ -150,6 +142,14 @@ storiesOf('InterestRates', module)
 // 			data={componiesData}
 // 		/>
 // 	));
+storiesOf('InterestRates', module)
+	.add('InterestRates demo', () => (
+		<InterestRates
+			baseRate='4.58'
+			primeRate='4.50'
+			debentureRate='4.32'
+		/>
+	));
 
 storiesOf('Credit', module)
 	.add('Credit demo', () => (
@@ -207,5 +207,15 @@ storiesOf('ProductionYearToDate', module)
 	.add('ProductionYearToDate', () => (
 		<ProductionYearToDate
 			data={chartData}
+		/>
+	));
+storiesOf('Sidebar', module)
+	.add('Sidebar', () => (
+		<Sidebar
+			date='April 1, 2018'
+			chartData={chartData}
+			baseRate='4.58'
+			primeRate='4.50'
+			debentureRate='4.32'
 		/>
 	));

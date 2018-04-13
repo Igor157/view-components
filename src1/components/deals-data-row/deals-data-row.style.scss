@@ -1,0 +1,42 @@
+$lightBlue: #EEF8FF;
+$blue: #7FB9D6;
+$grey: #666666;
+$lightGrey:#DDE3E7;
+$red: #DB8E84;
+$green: #B3D18F;
+$purple:#C7B6D7;
+$borderRadius: 4px;
+$paddingOfWindows:3px;
+.deals-data-row {
+    padding-top: 10px;
+}
+
+.deals-data-row__name {
+    margin-left: 2%;
+}
+
+.deals-data-row__vizualization {
+    min-height: 20px;
+    background-color: white;
+}
+
+.deals-data-row__button {
+    height: 25px;
+    width: 25px;
+    margin: 2px;
+    border: 1px solid $green;
+    border-radius: 2px;
+}
+
+.deals-data-row__ico {
+    color: white;
+    opacity: 0.5;
+}
+
+.deals-data-row__button--green {
+    background-color: $green;
+}
+
+.deals-data-row__button--purple {
+    background-color: $purple;
+}
